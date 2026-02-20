@@ -1,0 +1,18 @@
+# Git
+.git
+.gitignore
+
+# Docs e desenvolvimento local (não precisam no deploy)
+*.md
+!README.md
+
+# IDE / OS
+.cursor
+.vscode
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+.env.local
+.env.*.local
